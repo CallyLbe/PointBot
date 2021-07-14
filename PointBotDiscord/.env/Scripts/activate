@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\cleme\Desktop\PointBotTest\.env"
+VIRTUAL_ENV="C:\Users\cleme\Desktop\discord cally\PointBot\PointBot\PointBotDiscord\.env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
