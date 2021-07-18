@@ -23,8 +23,10 @@ client.on("message", function(message) {
   //const webAttachement = new Discord.WebAttachement("images/speecatbot3.png");
 
   if (command === "marco") {
+    
     message.reply(`POLOOOOO!`); //Répond en tag l'user de la commande
     channel.send('Polo, j\'ai envoyé ce message sans tag l\'auteur de la commande') //Envoie un message simple sans tag
+
   }
 
   if (command === "chanos") {
@@ -38,13 +40,16 @@ client.on("message", function(message) {
   if (command === "role_test") {
       messageReactionAdd(':champagne:')
   }
+
 })                     
 
 
 client.on("messageReactionAdd", function(messageReactionAdd){
     if (messageReactionAdd == '😀') {
-
+        
     }
+
+
 })
 
 /*
